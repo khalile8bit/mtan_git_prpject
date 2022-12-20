@@ -7,12 +7,14 @@
     <title>register</title>
 </head>
 <body>
-    name:<input type="name" name="name">
-    <br>
-    email:<input type="email" name="email">
-    <br>
-    password<input type="password" name="password">
-    <br>
-    <input type="submit" value="send data"> 
+    <form action="../control/reg.php" method="get">
+        name:<input type="name" name="name">
+        <br>
+        email:<input type="email" name="email">
+        <br>
+        password<input type="password" name="password">
+        <br>
+        <input type="submit" value="send data">
+    </form> 
 </body>
 </html>

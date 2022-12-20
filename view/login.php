@@ -7,10 +7,12 @@
     <title>login</title>
 </head>
 <body>
-    email:<input type="email" name="email">
-    <br>
-    password<input type="password" name="password">
-    <br>
-    <input type="submit" value="send data"> 
+    <form action="../control/login.php" method="get">
+        email:<input type="email" name="email">
+        <br>
+        password<input type="password" name="password">
+        <br>
+        <input type="submit" value="send data">
+    </form> 
 </body>
 </html>
